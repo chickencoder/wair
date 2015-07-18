@@ -1,5 +1,3 @@
 # Wair Mission Statement
 
-===
-  We aim to inspire adventure.
-===
+> We aim to inspire adventure.
