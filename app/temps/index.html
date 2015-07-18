@@ -4,25 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WairBest</title>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <!-- DELETE STYLES AND MOVE TO SASS -->
-    <style>
-      body {
-        background-image: url('/assets/mountain.jpg');
-        background-size: cover no-repeat;
-        background-position: center 20%;
-      }
+    <link rel="stylesheet" href="css/styles.css">
 
-      .logo {
-        font-size: 5em;
-        color: white;
-      }
-    </style>
   </head>
   <body>
     <div class="container text-center">
-      <h1 class="logo">wair</h1>
-      <button class="btn btn-default">Okay, Let's go!</button>
+      <div id="main">
+        <h1 class="logo">wair</h1>
+
+        <form class="text-left">
+          <div class="form-group">
+            <label for="airportSelect">Select an Airport</label>
+            <select id="airportSelect" class="form-control">
+              <option>
+                London Gatwick
+              </option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="dateSelect">Select a Date & Time</label>
+            <select id="dateSelect" class="form-control">
+              <option>
+                Mon 28th August, 2015
+              </option>
+            </select>
+          </div>
+
+          <input type="submit" class="btn btn-default" value="Search">
+        </form>
+      </div>
     </div>
   </body>
 </html>

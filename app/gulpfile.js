@@ -12,4 +12,4 @@ gulp.task('sass:watch', function(){
   gulp.watch('./temps/sass/*.scss', ['sass']);
 });
 
-gulp.default(['sass:watch']);
+gulp.task('default', ['sass:watch']);
