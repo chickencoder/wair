@@ -9,7 +9,9 @@
     "url": "git://github.com/chickencoder/wair.git"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.13.1"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
