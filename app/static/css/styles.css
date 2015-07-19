@@ -1,5 +1,5 @@
 .logo {
-  font-size: 6em;
+  font-size: 8em;
   margin-bottom: 30px; }
 
 .sub-heading {
@@ -9,7 +9,9 @@ label {
   font-size: 1.5em; }
 
 body {
-  font-family: 'PT Sans', 'Open Sans', sans-serif; }
+  font-family: 'PT Sans', 'Open Sans', sans-serif;
+  background-position: left;
+  background-size: 100% no-repeat; }
 
 #main {
   margin: 0 auto;
