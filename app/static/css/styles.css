@@ -9,9 +9,7 @@ label {
   font-size: 1.5em; }
 
 body {
-  font-family: 'PT Sans', 'Open Sans', sans-serif;
-  background-position: left;
-  background-size: 100% no-repeat; }
+  font-family: 'PT Sans', 'Open Sans', sans-serif; }
 
 #main {
   margin: 0 auto;
