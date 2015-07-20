@@ -30,10 +30,15 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px; }
 
+<<<<<<< HEAD
 #results-subheading {
   color: #fff;
   font-size: 4em;
   font-weight: bolder; }
+=======
+.box-header {
+  font-size: 4em; }
+>>>>>>> 72f8762e91e6e8630040de9e1cb725816abfa753
 
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif;
@@ -68,9 +73,19 @@ body {
   margin-bottom: 20px; }
 
 .navbar {
+<<<<<<< HEAD
   border-bottom: 7px solid #fff;
   background-color: rgba(255, 255, 255, 0.7);
   font-size: 1.2em; }
 
 .navbar-brand {
   font-size: 2em; }
+=======
+  border-bottom: 10px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
+
+.box {
+  background: #FFF;
+  border-radius: 1em;
+  padding: 10px; }
+>>>>>>> 72f8762e91e6e8630040de9e1cb725816abfa753
