@@ -7,10 +7,14 @@ h5 {
 
 .logo {
   font-size: 8em;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  color: #333; }
 
 .sub-heading {
-  color: #8f8f8f; }
+  color: #fff;
+  font-size: 5em;
+  font-weight: bolder;
+  margin-top: 30px; }
 
 label {
   font-size: 1.5em; }
@@ -27,13 +31,37 @@ hr {
   margin-bottom: 10px; }
 
 body {
-  font-family: 'PT Sans', 'Open Sans', sans-serif; }
+  font-family: 'PT Sans', 'Open Sans', sans-serif;
+  background-image: url(../assets/background.jpg);
+  background-size: 1500px auto;
+  background-position: 50% 30%; }
 
 #main {
   margin: 0 auto;
-  width: 33.33333%; }
+  width: 33.33333%;
+  margin-top: 30px; }
 
 @media (max-width: 768px) {
   #main {
     margin: 0 auto;
-    width: 100%; } }
+    width: 100%; }
+  .sub-heading {
+    font-size: 3em; } }
+
+@media (max-width: 1000px) and (min-width: 768px) {
+  #main {
+    margin: 0 auto;
+    width: 80%; } }
+
+#form-wrapper {
+  width: 100%;
+  border-radius: 1em;
+  padding: 2em;
+  background-color: #fff; }
+
+#top-select {
+  margin-bottom: 20px; }
+
+.navbar {
+  border-bottom: 10px solid #fff;
+  background-color: rgba(255, 255, 255, 0.5); }
