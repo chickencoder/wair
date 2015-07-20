@@ -17,5 +17,14 @@ app.get('/', function(req, res){
   res.render('index', {});
 });
 
+app.get('/results', function(req, res){
+  res.render('results', {});
+});
+
+// Test Page
+app.get('/test', function(req, res){
+  res.render('test', {});
+});
+
 app.listen(7000);
 console.log("Listening on port 7000...");

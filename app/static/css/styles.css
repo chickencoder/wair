@@ -8,6 +8,10 @@
 label {
   font-size: 1.5em; }
 
+.info-button {
+  margin: 0;
+  padding: 0; }
+
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif; }
 
