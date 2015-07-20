@@ -1,3 +1,10 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 5px; }
+
 .logo {
   font-size: 8em;
   margin-bottom: 30px; }
@@ -11,6 +18,13 @@ label {
 .info-button {
   margin: 0;
   padding: 0; }
+
+.light {
+  color: #808080; }
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px; }
 
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif; }
