@@ -25,9 +25,9 @@
           <td>Madrid Airport, Spain</td>
           <td>London Gatwick, England</td>
           <td>Mon 28th July 2015, 13:00</td>
-          <td><strong>£213.00</strong></td>
+          <td><strong>£213.10</strong></td>
           <td>
-            <a href="#" class="btn info-button">
+            <a href="#" class="btn info-button" data-toggle="modal" data-target="#myModal">
               <i class="fa fa-question-circle"></i>
             </a>
           </td>
@@ -38,12 +38,33 @@
           <td>Mon 28th July 2015, 18:00</td>
           <td><strong>£553.45</strong></td>
           <td>
-            <a href="#" class="btn info-button">
+            <a href="#" class="btn info-button" data-toggle="modal" data-target="#myModal">
               <i class="fa fa-question-circle"></i>
             </a>
           </td>
         </tr>
       </table>
     </section>
+
+    <!-- MODALS -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Flight Information</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Okay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODALS -->
   </div>
 {% endblock %}
