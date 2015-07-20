@@ -34,6 +34,14 @@ hr {
 .box-header {
   font-size: 4em; }
 
+.form-group {
+  color: #636363; }
+
+.sub-heading2 {
+  color: #fff;
+  font-weight: bolder;
+  margin-top: -4em; }
+
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif;
   background-image: url(../assets/background_blurred.jpg);
