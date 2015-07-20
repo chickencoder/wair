@@ -14,7 +14,8 @@
   "dependencies": {},
   "devDependencies": {
     "express": "^4.13.1",
-    "nodemon": "*"
+    "nodemon": "*",
+    "swig": "^1.4.2"
   },
   "optionalDependencies": {},
   "engines": {

@@ -1,10 +1,20 @@
 var express = require('express');
+var swig    = require('swig');
 var app = express();
 
+// Swig Templates
+app.engine('html', swig.renderFile);
+app.set('view engine', 'html');
+app.set('views', __dirname + '/temps');
+
+// Note: true in production!
+app.set('view cache', false);
+
+// Route static files
 app.use(express.static(__dirname + '/static'));
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/temps/index.html');
+  res.render('index', {});
 });
 
 app.listen(7000);

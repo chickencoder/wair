@@ -1,41 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WairBest</title>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+{% extends 'layout.html' %}
 
-  </head>
-  <body>
-    <div class="container text-center">
-      <div id="main">
-        <h1 class="logo">wair</h1>
-          <form class="text-left">
-            <h3 class="sub-heading">Find a cheap destination...</h3>
-            <div class="form-group">
-              <label for="airportSelect">Select an Airport</label>
-              <select id="airportSelect" class="form-control">
-                <option>
-                  London Gatwick
-                </option>
-              </select>
-            </div>
+{% block title %} WairBest {% endblock %}
 
-            <div class="form-group">
-              <label for="dateSelect">Select a Date & Time</label>
-              <select id="dateSelect" class="form-control">
-                <option>
-                  Mon 28th August, 2015
-                </option>
-              </select>
-            </div>
+{% block content %}
+  <div class="container text-center">
+    <div id="main">
+      <h1 class="logo">wair</h1>
+        <form class="text-left">
+          <h3 class="sub-heading">Find a cheap destination...</h3>
+          <div class="form-group">
+            <label for="airportSelect">Select an Airport</label>
+            <select id="airportSelect" class="form-control">
+              <option>
+                London Gatwick
+              </option>
+            </select>
+          </div>
 
-            <input type="submit" class="btn btn-default" value="Search">
-          </form>
-        </div>
+          <div class="form-group">
+            <label for="dateSelect">Select a Date & Time</label>
+            <select id="dateSelect" class="form-control">
+              <option>
+                Mon 28th August, 2015
+              </option>
+            </select>
+          </div>
+
+          <input type="submit" class="btn btn-default" value="Search">
+        </form>
       </div>
-  </body>
-</html>
+    </div>
+{% endblock %}
