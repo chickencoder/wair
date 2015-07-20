@@ -30,6 +30,9 @@ hr {
   margin-top: 10px;
   margin-bottom: 10px; }
 
+.box-header {
+  font-size: 4em; }
+
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif;
   background-image: url(../assets/background.jpg);
@@ -65,3 +68,8 @@ body {
 .navbar {
   border-bottom: 10px solid #fff;
   background-color: rgba(255, 255, 255, 0.5); }
+
+.box {
+  background: #FFF;
+  border-radius: 1em;
+  padding: 10px; }

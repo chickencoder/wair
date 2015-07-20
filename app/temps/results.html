@@ -7,45 +7,47 @@
 {% block content %}
 
   <div class="container">
-    <header>
-      <h1>Results</h1>
-    </header>
+    <div class="box">
+      <header>
+        <h1 class="box-header">Results</h1>
+      </header>
 
-    <section>
-      <table class="table table-stripped table-hover">
-        <thead>
-          <tr>
-            <th>Destination</th>
-            <th>Departure</th>
-            <th>Date & Time</th>
-            <th>Price</th>
-            <th>Info</th>
+      <section>
+        <table class="table table-stripped table-hover">
+          <thead>
+            <tr>
+              <th>Destination</th>
+              <th>Departure</th>
+              <th>Date & Time</th>
+              <th>Price</th>
+              <th>Info</th>
+            </tr>
+          </thead>
+          <tr class="success">
+            <td>Madrid Airport, Spain</td>
+            <td>London Gatwick, England</td>
+            <td>Mon 28th July 2015, 13:00</td>
+            <td><strong>£213.10</strong></td>
+            <td>
+              <a href="#" class="btn info-button" data-toggle="modal" data-target="#myModal">
+                <i class="fa fa-question-circle"></i>
+              </a>
+            </td>
           </tr>
-        </thead>
-        <tr class="success">
-          <td>Madrid Airport, Spain</td>
-          <td>London Gatwick, England</td>
-          <td>Mon 28th July 2015, 13:00</td>
-          <td><strong>£213.10</strong></td>
-          <td>
-            <a href="#" class="btn info-button" data-toggle="modal" data-target="#myModal">
-              <i class="fa fa-question-circle"></i>
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>JFK New York City, USA</td>
-          <td>Bristol City Airport, England</td>
-          <td>Mon 28th July 2015, 18:00</td>
-          <td><strong>£553.45</strong></td>
-          <td>
-            <a href="#" class="btn info-button" data-toggle="modal" data-target="#myModal">
-              <i class="fa fa-question-circle"></i>
-            </a>
-          </td>
-        </tr>
-      </table>
-    </section>
+          <tr>
+            <td>JFK New York City, USA</td>
+            <td>Bristol City Airport, England</td>
+            <td>Mon 28th July 2015, 18:00</td>
+            <td><strong>£553.45</strong></td>
+            <td>
+              <a href="#" class="btn info-button" data-toggle="modal" data-target="#myModal">
+                <i class="fa fa-question-circle"></i>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </section>
+    </div>
 
     <!-- MODALS -->
 
@@ -85,7 +87,7 @@
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Okay</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Done</button>
           </div>
         </div>
       </div>
