@@ -49,15 +49,20 @@ body {
   margin-bottom: 20px;
 }
 
-.navbar{
-  border-bottom: 2px solid #333;
+.navbar {
+  border-bottom: 1px solid #333;
   background-color: #FFF;
   font-size: 1.2em;
   color: #333;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-size: 2em;
+  color: #333;
+}
+
+#brand {
+  color: #333;
 }
 
 .box {
