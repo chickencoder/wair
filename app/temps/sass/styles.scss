@@ -37,6 +37,10 @@ body {
   }
 }
 
+.box-shad {
+  box-shadow: 1px 1px 2px #555;
+}
+
 #form-wrapper {
   width: 100%;
   border-radius: 5px;
@@ -54,7 +58,6 @@ body {
   font-size: 1.2em;
   color: #333;
 
-  box-shadow: 3px 3px 3px #C0C0C0;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
 }
