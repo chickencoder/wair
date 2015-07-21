@@ -84,6 +84,13 @@ body {
   padding-top: 0.3em;
   padding-bottom: 0.3em; }
 
+.nav {
+  float: right; }
+
+@media (max-width: 768px) {
+  .nav {
+    float: left; } }
+
 .navbar-brand {
   font-size: 2em;
   color: #333; }
