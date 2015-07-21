@@ -39,10 +39,10 @@ body {
 
 #form-wrapper {
   width: 100%;
-  border-radius: 1em;
-  padding: 2em;
+  border-radius: 5px;
+  padding: 1em;
   background-color: #fff;
-  box-shadow: 1px 1px 1px #333;
+  margin-bottom: 10px;
 }
 
 #top-select {
@@ -54,7 +54,7 @@ body {
   font-size: 1.2em;
   color: #333;
 
-  box-shadow: 2px 2px 2px #777;
+  box-shadow: 3px 3px 3px #C0C0C0;
   padding-top: 0.3em;
   padding-bottom: 0.3em;
 }
@@ -77,4 +77,17 @@ footer {
 
   background: #FFF;
   padding: 5px;
+}
+
+
+#search-button {
+  padding: 0.5em;
+  width: 100%;
+  color: #fff;
+  outline: 0;
+  border: none;
+  font-weight: bolder;
+  font-size: 1.2em;
+  background-color: #76B1E2;
+
 }
