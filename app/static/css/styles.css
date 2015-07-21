@@ -132,3 +132,6 @@ footer {
   font-weight: bolder;
   font-size: 1.2em;
   background-color: #76B1E2; }
+
+#search-button:hover {
+  opacity: 0.8; }
