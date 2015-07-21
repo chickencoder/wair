@@ -71,22 +71,21 @@ body {
   border-radius: 1em;
   padding: 2em;
   background-color: #fff;
-  box-shadow: 2px 3px 3px #333; }
+  box-shadow: 1px 1px 1px #333; }
 
 #top-select {
   margin-bottom: 20px; }
 
 .navbar {
-  border-bottom: 1px solid #333;
   background-color: #FFF;
   font-size: 1.2em;
-  color: #333; }
+  color: #333;
+  box-shadow: 2px 2px 2px #777;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em; }
 
 .navbar-brand {
   font-size: 2em;
-  color: #333; }
-
-#brand {
   color: #333; }
 
 .box {
