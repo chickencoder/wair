@@ -42,6 +42,7 @@ body {
   border-radius: 1em;
   padding: 2em;
   background-color: #fff;
+  box-shadow: 2px 3px 3px #333;
 }
 
 #top-select {
@@ -49,9 +50,10 @@ body {
 }
 
 .navbar{
-  // border-bottom: 5px solid #fff;
+  border-bottom: 2px solid #333;
   background-color: #FFF;
   font-size: 1.2em;
+  color: #333;
 }
 
 .navbar-brand{
@@ -62,4 +64,13 @@ body {
   background: #FFF;
   border-radius: 1em;
   padding: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+
+  background: #FFF;
+  padding: 5px;
 }

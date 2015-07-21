@@ -12,6 +12,7 @@ h5 {
 
 .sub-heading {
   color: #fff;
+  text-shadow: 1px 2px #333;
   font-size: 5em;
   font-weight: bolder;
   margin-top: 1em;
@@ -61,14 +62,17 @@ body {
   width: 100%;
   border-radius: 1em;
   padding: 2em;
-  background-color: #fff; }
+  background-color: #fff;
+  box-shadow: 2px 3px 3px #333; }
 
 #top-select {
   margin-bottom: 20px; }
 
 .navbar {
+  border-bottom: 2px solid #333;
   background-color: #FFF;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  color: #333; }
 
 .navbar-brand {
   font-size: 2em; }
@@ -77,3 +81,10 @@ body {
   background: #FFF;
   border-radius: 1em;
   padding: 10px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  background: #FFF;
+  padding: 5px; }
