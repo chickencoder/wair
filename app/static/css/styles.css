@@ -5,11 +5,6 @@ h4,
 h5 {
   margin: 5px; }
 
-.logo {
-  font-size: 8em;
-  margin-bottom: 30px;
-  color: #333; }
-
 .sub-heading {
   color: #fff;
   font-size: 5em;
@@ -46,6 +41,7 @@ hr {
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif;
   background-image: url(../assets/background_blurred.jpg);
+  background-image: url(../assets/airport.jpg);
   background-size: 1500px auto;
   background-position: 50% 30%; }
 
