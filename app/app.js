@@ -3,6 +3,9 @@ var swig    = require('swig');
 var fs      = require('fs');
 var app = express();
 
+// Require airports.json
+var airports = require('./json/airports.json');
+
 // Swig Templates
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
@@ -15,19 +18,12 @@ app.set('view cache', false);
 app.use(express.static(__dirname + '/static'));
 
 app.get('/', function(req, res){
-  var file;
-  fs.readFile(__dirname + '/eu.json', 'utf8', function(err, data){
-    if (err) {
-      console.log(err);
-    }
-    file = data.toString();
-  });
-
-  var airports = JSON.parse(file);
-  for (var a in airports) {
-    console.log(airports[a]);
+  var aps = [];
+  for (var i in airports) {
+    aps.push(airports[i]["name"]);
   }
-  res.render('index', {'airports': {}});
+  aps = aps.sort();
+  res.render('index', {'airports': aps});
 });
 
 app.get('/results', function(req, res){
