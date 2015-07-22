@@ -1,2 +1,2 @@
-# Wair Website
+![alt tag](https://raw.github.com/chickencoder/wair/master/app/static/assets/logo.png)
 This page is read-only and only for developers....
