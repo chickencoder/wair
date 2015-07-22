@@ -2,6 +2,10 @@
 
 @import 'text';
 
+// Variables:
+$links: a, a:active, a:focus, button, button:focus, button:active, 
+.btn, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active, .btn.active.focus;
+
 body {
   // background-image: url('/assets/mountain.jpg');
   // background-size: cover no-repeat;
@@ -150,4 +154,13 @@ footer {
 
 #logo:hover {
   opacity: 1;
+}
+
+$links {
+    outline: none;
+    outline: 0;
+}
+
+input::-moz-focus-inner {
+    border: 0;
 }
