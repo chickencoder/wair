@@ -11,9 +11,11 @@
             <div class="form-group" id="top-select">
               <label for="airportSelect">Select an Airport</label>
               <select id="airportSelect" class="form-control">
+                {% for airport in airports %}
                 <option>
-                  London Gatwick
+                  {{ airport }}
                 </option>
+                {% endfor %}
               </select>
             </div>
 
