@@ -139,8 +139,9 @@ footer {
 #logo {
   width: 4em;
   margin-left: 1px;
+  opacity: 0.7;
   background-image: url(../assets/logo.png);
   background-repeat: no-repeat; }
 
 #logo:hover {
-  opacity: 0.9; }
+  opacity: 1; }
