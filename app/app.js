@@ -26,5 +26,5 @@ app.get('/test', function(req, res){
   res.render('test', {});
 });
 
-app.listen(8000);
-console.log("Listening on port 8000...");
+app.listen(6000);
+console.log("Listening on port 6000...");
