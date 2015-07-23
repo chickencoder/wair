@@ -26,6 +26,22 @@ app.get('/results', function(req, res){
   res.render('results', {});
 });
 
+app.get('/about', function(req, res){
+  res.render('pages/about', {});
+});
+
+app.get('/developers', function(req, res){
+  res.render('pages/developers', {});
+});
+
+app.get('/news', function(req, res){
+  res.render('pages/news', {});
+});
+
+app.get('/contact', function(req, res){
+  res.render('pages/contact', {});
+});
+
 // Test Page
 app.get('/test', function(req, res){
   res.render('test', {});
