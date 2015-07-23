@@ -4,7 +4,7 @@ var fs      = require('fs');
 var app = express();
 
 // Require airports.json
-var airports = require('./json/airports.json');
+var airports = require('./api/airports.js');
 
 // Swig Templates
 app.engine('html', swig.renderFile);
@@ -18,12 +18,8 @@ app.set('view cache', false);
 app.use(express.static(__dirname + '/static'));
 
 app.get('/', function(req, res){
-  var aps = [];
-  for (var i in airports) {
-    aps.push(airports[i]["name"]);
-  }
-  aps = aps.sort();
-  res.render('index', {'airports': aps});
+  var air = airports.fetchAirports();
+  res.render('index', {'airports': air});
 });
 
 app.get('/results', function(req, res){
