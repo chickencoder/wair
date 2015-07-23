@@ -9,16 +9,8 @@ gulp.task('sass', function(){
     .pipe(gulp.dest('./static/css'));
 });
 
-gulp.task('start', function(){
-  node({
-    script: 'app.js',
-    ext: 'js html css',
-    watch: 'temps'
-  });
-});
-
 gulp.task('sass:watch', function(){
   gulp.watch('./temps/sass/*.scss', ['sass']);
 });
 
-gulp.task('default', ['sass:watch', 'start']);
+gulp.task('default', ['sass:watch']);
