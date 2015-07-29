@@ -1,4 +1,4 @@
-![](https://raw.github.com/chickencoder/wair/master/app/static/assets/logo3.svg)
+![](https://raw.github.com/chickencoder/wair/master/app/static/assets/logo2.svg)
 
 ## Changelog
 1.  Server running on port 9000 now.
