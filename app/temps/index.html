@@ -10,7 +10,7 @@
           <form class="text-left">
             <div class="form-group" id="top-select">
               <label for="airportSelect">Select an Airport</label>
-              <select class="form-control" id="airportSelect">
+              <select id="airportSelect">
                 {% for airport in airports %}
                 <option>
                   {{ airport }}
@@ -18,10 +18,10 @@
                 {% endfor %}
               </select>
             </div>
-
+            <hr>
             <div class="form-group">
               <label for="dateSelect">Select a Date & Time</label>
-              <select class="form-control" id="dateSelect">
+              <select id="dateSelect">
                 <option>
                   Mon 28th August, 2015
                 </option>

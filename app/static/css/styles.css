@@ -50,6 +50,14 @@ button, button:focus, button:active,
 body {
   font-family: 'PT Sans', 'Open Sans', sans-serif; }
 
+select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  width: 100%;
+  background-color: #fff; }
+
 #background {
   position: fixed;
   left: 0;
@@ -157,14 +165,13 @@ footer {
 
 #logo {
   width: 3em;
-  margin-left: 1px;
-  margin-top: -2px;
-  opacity: 0.7;
-  background-image: url(../assets/logo.svg);
+  margin-left: -10px;
+  opacity: 0.8;
+  background-image: url(../assets/logo3.svg);
   background-repeat: no-repeat; }
 
 #logo:hover {
-  opacity: 0.9; }
+  opacity: 1; }
 
 input::-moz-focus-inner {
   border: 0; }
